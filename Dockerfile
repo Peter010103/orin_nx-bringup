@@ -20,5 +20,3 @@ RUN wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/
 RUN ./install_geographiclib_datasets.sh
 
 WORKDIR /home
-
-

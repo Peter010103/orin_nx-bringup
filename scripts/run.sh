@@ -7,5 +7,3 @@ nvidia-docker run --detach \
     --device=/dev/ttyTHS1 \
     --volume ${PWD}:/home/:Z \
     -it orin_drones_jammy:latest "$@"
-
-
