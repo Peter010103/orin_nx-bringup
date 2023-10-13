@@ -1,0 +1,11 @@
+launch:
+- include:
+    file:   "src/Freyja/freyja_flight.launch.yaml"
+    arg:
+        - { name:   "state_source",         value: "tf-mocap" }
+        - { name:   "tf_myframe",           value: "U6" }
+        - { name:   "use_namespace",        value: "U6" }
+        - { name:   "numeric_id",           value: "6" }
+        - { name:   "use_arbitrator",       value: "true" }
+        - { name:   "use_waypoint_handler", value: "true" }
+        - { name:   "initial_wpt_NEDy",     value: "[-1.0, 1.0, -1.0, -1.57]" }   # NEDyaw as a string
